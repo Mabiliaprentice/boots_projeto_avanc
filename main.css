@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-    background-color: #e15f41;
+    background-color: #f90606;
 }
 
 #cabecalho .nav .nav-link.active {
@@ -13,7 +13,7 @@ body {
 
 #cabecalho .nav .nav-link, .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
+.nav-opcoes .nav-link.active:hover {
     color: #fff;
 }
 
@@ -30,21 +30,21 @@ body {
     color: #e15f41;
 }
 
-#sobre-o-restaurante, #cardapio {
-    background-color: #ffeae6;
+#sobre-a-banda, #discografia {
+    background-color: #a8a2a2;
 }
 
 .text-colored {
-    color: #e15f41;
+    color: #f90606;
 }
 
-.nav-cardapio .nav-link.active,
+.nav-opcoes .nav-link.active,
 #fale-conosco button {
     background-color: #e15f41;
     color: #fff;
 } 
 
-.nav-cardapio .nav-link:hover {
+.nav-opcoes .nav-link:hover {
     color: #e15f41;
 }
 
@@ -55,6 +55,19 @@ body {
 
 .social-links a {
     text-decoration: none;
+}
+
+#carousel_2 img {
+    width: 100%;
+    
+}
+
+#carousel_1 img {
+    width: 100%;
+}
+
+#carousel_3 img {
+    width: 100%;
 }
 
 @media (max-width: 767px) {
